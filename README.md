@@ -5,16 +5,10 @@ Infrastructure as Code project using Terraform modules for AWS environment manag
 ## Project Structure
 
 Terraform-modules/
-├── modules/ # Reusable infrastructure components
-│ ├── _common/ # Common variables and outputs
-│ ├── vpc/ # VPC network infrastructure
-│ ├── sg/ # Security groups management
-│ └── ec2/ # EC2 instances deployment
+├── modules/ # Reusable modules
 ├── envs/ # Environment configurations
-│ ├── dev/ # Development environment
-│ ├── stage/ # Staging environment
-│ └── prod/ # Production environment
-└── scripts/ # Automation scripts
+├── scripts/ # Helper scripts
+└── README.md
 
 ## Modules Overview
 
