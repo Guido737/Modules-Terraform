@@ -1,9 +1,20 @@
 # Local .terraform directories
-**/.terraform/*
-
-# .tfstate files
+# Terraform
+.terraform/
+.terraform.lock.hcl
 *.tfstate
 *.tfstate.*
+*.backup
+*.tfvars
+crash.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Crash log files
 crash.log
