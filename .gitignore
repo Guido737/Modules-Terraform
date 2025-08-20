@@ -1,8 +1,6 @@
 # Local .terraform directories
 # Terraform
 .terraform/
-backend.tf
-
 .terraform.lock.hcl
 *.tfstate
 *.tfstate.*
@@ -34,3 +32,4 @@ override.tf.json
 # CLI configuration files
 .terraformrc
 terraform.rc
+backend.*
