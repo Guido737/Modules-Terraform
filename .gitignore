@@ -32,4 +32,6 @@ override.tf.json
 # CLI configuration files
 .terraformrc
 terraform.rc
-backend.*
+
+# Ignore Terraform backend configs
+**/backend.tf
