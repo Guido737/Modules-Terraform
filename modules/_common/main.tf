@@ -15,7 +15,7 @@ locals {
     Project     = var.project
     Owner       = var.owner
     Terraform   = "true"
-    Repository  = "https://github.com/your-org/terraform-modules"
+    Repository  = "https://github.com/Guido737/Modules-Terraform.git"
   })
   timestamp = formatdate("YYYYMMDD-hhmmss", timestamp())
 }
